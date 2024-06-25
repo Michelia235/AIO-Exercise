@@ -74,7 +74,7 @@ doctor1.describe()
 teacher2 = Teacher(name="teacherB", yob=1995, subject="History")
 doctor2 = Doctor(name="doctorB", yob=1975, specialist="Cardiology")
 
-# Khởi tạo phòng
+# Khởi tạo phường
 ward1 = Ward(name="Ward1")
 
 # Thêm các đối tượng vào phòng
