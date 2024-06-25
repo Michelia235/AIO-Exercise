@@ -70,7 +70,7 @@ teacher1.describe()
 
 doctor1 = Doctor(name="doctorA", yob=1945, specialist=" Endocrinologists ")
 doctor1.describe()
-# Khởi tạo giáo viên và bác sĩ
+# Khởi tạo thêm giáo viên và bác sĩ
 teacher2 = Teacher(name="teacherB", yob=1995, subject="History")
 doctor2 = Doctor(name="doctorB", yob=1975, specialist="Cardiology")
 
