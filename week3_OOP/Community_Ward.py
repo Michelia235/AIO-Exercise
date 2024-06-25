@@ -40,7 +40,7 @@ class Doctor(Person):
 class Ward:
     def __init__(self, name):
         self.__name = name
-        self.__list_people = list()  # Renamed from __listPeople
+        self.__list_people = list() 
 
     def add_person(self, person):
         self.__list_people.append(person)
@@ -77,7 +77,7 @@ doctor2 = Doctor(name="doctorB", yob=1975, specialist="Cardiology")
 # Khởi tạo phường
 ward1 = Ward(name="Ward1")
 
-# Thêm các đối tượng vào phòng
+# Thêm các đối tượng vào phường
 ward1.add_person(student1)
 ward1.add_person(teacher1)
 ward1.add_person(teacher2)
