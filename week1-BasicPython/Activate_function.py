@@ -31,10 +31,10 @@ def calc_activation_function(x,activation_function:str) -> float:
             return calc_elu(x)
         else:
             print(activation_function, " is not supported")
-            return None
+            
     else:
         print("x must be a number")
-        return None
+        
 if __name__ == "__main__":
     print((calc_activation_function(x=1.5, activation_function='sigmoid')))
     print((calc_activation_function(x="abc", activation_function='sigmoid')))
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     print(is_number (1) )
     print(is_number ("n"))
     #Câu 4:
-    assert round(calc_sigmoid(3), 2) ==0.95
+    assert np.isclose(round(calc_sigmoid(3), 2), 0.95, rtol=1e-09, atol=1e-09)
     print(round(calc_sigmoid(2), 2))
     #Câu 5:
     assert round(calc_elu(1)) ==1
